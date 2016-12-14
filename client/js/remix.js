@@ -110,17 +110,17 @@ $(document).ready(function() {
 		var verificar_remix7 = setInterval(function(){
 			if( remix_7.ended ){
 			//Cuando todavia no se liberan todas las canciones
-				remix_7.pause();
+				/*remix_7.pause();
 				remix_1.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix7);
+				clearInterval(verificar_remix7);*/
 			//Cuando ya se libero todas las canciones
-				/*remix_7.pause();
+				remix_7.pause();
 				remix_1.play();
 				checking_status_pause();
 				clearInterval(verificar_remix7);
 				contador_remix_1 = 1;
-				verifying_completion_remix1();*/
+				verifying_completion_remix1();
 			}
 		}, 1000);
 	}
@@ -128,17 +128,17 @@ $(document).ready(function() {
 		var verificar_remix6 = setInterval(function(){
 			if( remix_6.ended ){
 			//Cuando todavia no se liberan todas las canciones
-				remix_6.pause();
+				/*remix_6.pause();
 				remix_7.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix6);
+				clearInterval(verificar_remix6);*/
 			//Cuando ya se libero todas las canciones
-				/*remix_6.pause();
+				remix_6.pause();
 				remix_7.play();
 				checking_status_pause();
 				clearInterval(verificar_remix6);
 				contador_remix_7 = 1;
-				verifying_completion_remix7();*/
+				verifying_completion_remix7();
 			}
 		}, 1000);
 	}
@@ -146,17 +146,17 @@ $(document).ready(function() {
 		var verificar_remix5 = setInterval(function(){
 			if( remix_5.ended ){
 			//Cuando todavia no se liberan todas las canciones
-				remix_5.pause();
+				/*remix_5.pause();
 				remix_6.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix5);
+				clearInterval(verificar_remix5);*/
 			//Cuando ya se libero todas las canciones
-				/*remix_5.pause();
+				remix_5.pause();
 				remix_6.play();
 				checking_status_pause();
 				clearInterval(verificar_remix5);
 				contador_remix_6 = 1;
-				verifying_completion_remix6();*/
+				verifying_completion_remix6();
 			}
 		}, 1000);
 	}
@@ -165,17 +165,17 @@ $(document).ready(function() {
 		var verificar_remix4 = setInterval(function(){
 			if( remix_4.ended ){
 			//cuando todavia no se liberan todas las canciones
-				remix_4.pause();
+				/*remix_4.pause();
 				remix_5.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix4);
+				clearInterval(verificar_remix4);*/
 			//Cuando ya se libero todas las canciones
-				/*remix_4.pause();
+				remix_4.pause();
 				remix_5.play();
 				checking_status_pause();
 				clearInterval(verificar_remix4);
 				contador_remix_5 = 1;
-				verifying_completion_remix5();*/
+				verifying_completion_remix5();
 			}
 		}, 1000);
 	}
@@ -184,17 +184,17 @@ $(document).ready(function() {
 		var verificar_remix3 = setInterval(function(){
 			if( remix_3.ended ){
 			//Cuando todavia no se librean todas las canciones
-				remix_3.pause();
+				/*remix_3.pause();
 				remix_4.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix3);
+				clearInterval(verificar_remix3);*/
 			//Cuando ya se libero todas las canciones
-				/*remix_3.pause();
+				remix_3.pause();
 				remix_4.play();
 				checking_status_pause();
 				clearInterval(verificar_remix3);
 				contador_remix_4 = 1;
-				verifying_completion_remix4();*/
+				verifying_completion_remix4();
 			}
 		}, 1000);
 	}
@@ -203,17 +203,17 @@ $(document).ready(function() {
 		var verificar_remix2 = setInterval(function(){
 			if( remix_2.ended ){
 			//Cuando todavia no se liberan todas las canciones
-				remix_2.pause();
+				/*remix_2.pause();
 				remix_3.pause();
 				checking_status_pause();
-				clearInterval(verificar_remix2);
+				clearInterval(verificar_remix2);*/
 			//cuando ya se libero todas las canciones
-				/*remix_2.pause();
+				remix_2.pause();
 				remix_3.play();
 				checking_status_pause();
 				clearInterval(verificar_remix2);
 				contador_remix_3 = 1;
-				verifying_completion_remix3();*/
+				verifying_completion_remix3();
 			}
 		}, 1000);
 	}
