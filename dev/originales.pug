@@ -1,0 +1,230 @@
+doctype html
+html(lang="es")
+	head 
+		meta(charset="utf-8")
+		title Taliam | Originales
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
+		meta(name="author", content="Taliam")
+		meta(name="description", content="Dale un giro a tu día, viviendo la música electrónica de una manera diferente.")
+		meta(name="keyword", content="taliam, musica electronica, dj, latinoamerica, lo ultimo de la musica electronica, taliam.co, vive la musica de una manera diferente, dale un giro a tu dia, lo mejor de la musica electronica")
+		link(rel="icon", type="image/png", href="client/img/taliam-logo-circular.png")
+		link(rel="stylesheet", type="text/css", href="client/css/menu-fijo.css")
+		link(rel="stylesheet", type="text/css", href="client/css/footer.css")
+		link(rel="stylesheet", type="text/css", href="client/css/materialize.min.css")
+		link(rel="stylesheet", type="text/css", href="client/css/remix.css")
+		link(rel="stylesheet", type="text/css", href="client/css/cancion.css")
+		link(rel="stylesheet", type="text/css", href="client/css/sweetalert.css")
+	body 
+		include blocks/menu-fijo.pug
+		section.section-remix-container
+			.container
+				.row.row-encabezado(style="margin-bottom: 40px;")
+					.col.s12.col-encabezado
+						span.icon-vynil
+						p Canciones recien salidas del horno:	
+				.row.row-remix
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song1
+								audio.remix-1(src="client/taliam-canciones/cancion1.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-1.icon-play
+							.remix-footer
+								p KSHMR & Tigerlily - Invisible Children
+							.locked-song
+								.days-released
+									p Falta 1 día para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original1 F
+										p.first-letter-original1 A
+										p.first-letter-original1 Y
+						a(href="https://youtu.be/3QVYpRdb2l0 ", target="_blank").btn.button-youtube
+							| Ver en 
+							span.icon-youtube2
+						.like-dislike
+							span.icon-like-dislike-1.icon-heart
+							span.icon-like-dislike-1.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song2
+								audio.remix-2(src="client/taliam-canciones/cancion2.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-2.icon-play
+							.remix-footer
+								p Quintino x Cheat Codes - Can't Fight It
+							.locked-song
+								.days-released
+									p Falta 1 día para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original2 C
+										p.first-letter-original2 M
+										p.first-letter-original2 K
+						a(target='_blank').btn.button-youtube.button-original2
+							| Ver en 
+							span.icon-youtube2
+						.like-dislike
+							span.icon-like-dislike-2.icon-heart
+							span.icon-like-dislike-2.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song3
+								audio.remix-3(src="client/taliam-canciones/cancion3.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-3.icon-play
+							.remix-footer
+								p Carta - Shanghai
+							.locked-song
+								.days-released
+									p Falta 2 días para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original3 S
+										p.first-letter-original3 V
+										p.first-letter-original3 X
+						a(target='_blank').btn.button-youtube.button-original3
+							| Ver en  
+							span.icon-youtube2
+						.like-dislike
+							span.icon-like-dislike-3.icon-heart
+							span.icon-like-dislike-3.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song4
+								audio.remix-4(src="client/taliam-canciones/cancion4.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-4.icon-play
+							.remix-footer
+								p Borgeous, Loud Luxury - Going Under
+							.locked-song
+								.days-released
+									p Falta 3 días para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original4 O
+										p.first-letter-original4 G
+										p.first-letter-original4 L
+						a(target='_blank').btn.button-youtube.button-original4
+							| Ver en 
+							span.icon-youtube2
+						.like-dislike
+							span.icon-like-dislike-4.icon-heart
+							span.icon-like-dislike-4.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song5
+								audio.remix-5(src="client/taliam-canciones/cancion5.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-5.icon-play
+							.remix-footer
+								p Elephante - Plans (feat. Brandyn Burnette)
+							.locked-song
+								.days-released
+									p Falta 4 días para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original5 D
+										p.first-letter-original5 S
+										p.first-letter-original5 P
+						a(target='_blank').btn.button-youtube.button-soundcloud.button-original5
+							| Escuchar en  
+							span.icon-soundcloud
+						.like-dislike
+							span.icon-like-dislike-5.icon-heart
+							span.icon-like-dislike-5.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song6
+								audio.remix-6(src="client/taliam-canciones/cancion6.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-6.icon-play
+							.remix-footer
+								p Dakota - Long Hot Summer
+							.locked-song
+								.days-released
+									p Falta 5 días para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original6 L
+										p.first-letter-original6 X
+										p.first-letter-original6 Q
+						a(target='_blank').btn.button-youtube.button-original6
+							| Ver en  
+							span.icon-youtube2
+						.like-dislike
+							span.icon-like-dislike-6.icon-heart
+							span.icon-like-dislike-6.icon-heart-broken
+					.col.s12.l6.col-remix
+						.remix-content
+							.remix-image.background-song7
+								audio.remix-7(src="client/taliam-canciones/cancion7.mp3")
+								.remix-background-color
+									.button-play-pause
+										span.icons-play-pause-7.icon-play
+							.remix-footer
+								p Born To Lose (feat. Gia Koka)
+							.locked-song
+								.days-released
+									p Falta 6 días para ser liberado
+								span.icon-locked1
+								a.btn.button-liberate-song Liberar
+							.guess
+								.content
+									p La siguiente canción, comienza con la letra:
+									.row-letters
+										p.first-letter-original7 E
+										p.first-letter-original7 J
+										p.first-letter-original7 B
+						a(target='_blank').btn.button-youtube.button-soundcloud.button-original7
+							| Escuchar en  
+							span.icon-soundcloud
+						.like-dislike
+							span.icon-like-dislike-7.icon-heart
+							span.icon-like-dislike-7.icon-heart-broken
+				.row.row-recomendar-remix
+					.col.s12
+						p Tu eres el mejor jurado, que sabe cuando una música será un Hit
+						a.btn.button-recommend-remix Recomendar
+				.row.row-remix-data
+					.col.s12
+						input(type="text", placeholder="Nombre de la canción o autor")
+						a.btn.button-send-information Enviar
+			include blocks/footer.pug			
+
+		script(src="client/js/jquery-3.1.0.min.js")
+		script(src="client/js/materialize.min.js")
+		script(src="client/js/sweetalert.min.js")
+		script(src="client/js/remix.js")
+		script(src="client/js/cancion.js")
+			
